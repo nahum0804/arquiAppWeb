@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+ 
+<head>
+    <title>
+        Statistics of the temperature in the last days
+    </title>
+ 
+    <style>
+        body {
+            text-align: center;
+            padding: 5%;
+        }
+ 
+        h1 {
+            color: green;
+        }
+
+        .margin-button {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div id="add_to_me">
+        <h1>Get data about the last days</h1>
+        <h2>Temperature Monitoring Data</h2>
+        <p>
+            Select a date to get the temperature data for that day and click on the button to get the data.
+        </p>
+        <input type="date" name="dateBox" id="dateBox">
+    </div>
+    
+    <button onclick="addCode()" class="margin-button">
+        Get Data
+    </button>
+
+    <script src="/web/index.js"></script>
+</body>
+ 
+</html>
