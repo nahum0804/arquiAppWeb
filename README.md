@@ -8,4 +8,4 @@ arquiAppWeb
 - Click in html boton and select a date call addCode() function
 
 #### Goal
--Call the readDB() functions inside addCode() - For get data from Firebase (Coming soon...)
+- Call the readDB() functions inside addCode() - For get data from Firebase (Coming soon...)
