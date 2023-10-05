@@ -3,6 +3,9 @@ import { initializeApp } from "firebase/app";
 
 
 async function readDB(){
+    /*
+    USE RELATIVE PATHS CLASSES! THIS WONT NEVER RUN IN ANOTHER COMPUTER
+    */
     const firebaseConf = "C:\Users\Usuario\Desktop\ProyectoDeIoT\artificialTemperatureGenerator\temperaturemonitoring-firebase.json"
     const app = initializeApp(firebaseConf);
     const db = getFirestore(app);

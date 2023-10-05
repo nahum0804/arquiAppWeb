@@ -16,6 +16,9 @@ function addCode() {
         return;
     }
 
+    /*
+    USE CSS CLASSES FOR STYLES!
+    */
     // Si no existe un elemento h3, creamos uno y lo agregamos
     var newH3 = document.createElement("div");
     newH3.id = "new_h3";
